@@ -1,0 +1,59 @@
+<body>
+
+
+<h1>Generador de Contador GitHub</h1>
+
+<div class="form-group">
+
+  <div class="input-block">
+    <label for="label">
+      <i class="fa-solid fa-plus icon-label"></i>
+      Nombre del contador:
+    </label>
+    <input type="text" id="label" placeholder="Ej: Visualizaciones" />
+  </div>
+
+  <div class="input-block">
+    <label>
+      <i class="fa-solid fa-fill-drip icon-label"></i>
+      Color izquierdo:
+    </label>
+    <input type="color" id="leftColor" value="#b5f2c8" />
+    <span id="leftColorText" class="color-preview">#b5f2c8</span>
+  </div>
+
+  <div class="input-block">
+    <label>
+      <i class="fa-regular fa-circle icon-label"></i>
+      Color derecho:
+    </label>
+    <input type="color" id="rightColor" value="#9afac4" />
+    <span id="rightColorText" class="color-preview">#9afac4</span>
+  </div>
+
+  <div class="input-block">
+    <label for="username">
+      <i class="fa-solid fa-user icon-label"></i>
+      Usuario GitHub:
+    </label>
+    <input type="text" id="username" placeholder="Ej: AvastrOficial" />
+  </div>
+
+</div>
+
+<button onclick="generarMarkdown()">
+  <i class="fa-solid fa-arrow-right icon-button"></i>
+  Generar Código
+</button>
+
+<div class="output" id="resultado">Aquí aparecerá el código listo para copiar.</div>
+
+<button id="copyBtn" onclick="copiarAlPortapapeles()" style="display:none;">
+  <i class="fa-regular fa-copy icon-button"></i>
+  Copiar código
+</button>
+
+
+<!-- Notificación oculta inicialmente -->
+<div id="copyNotification" style="display:none;">¡Código copiado!</div>
+</body>
