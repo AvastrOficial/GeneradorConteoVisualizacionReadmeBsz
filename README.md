@@ -1,7 +1,6 @@
 # Generador Conteo de Visualizacion para Readme - Bsz
 ![Vistas Repositorio](https://visitor-badge.laobi.icu/badge?page_id=BSZRepositorioVisualizacion&left_text=Vistas%20Repositorio&left_color=%23969696&right_color=%23ff0000)
 
-<br></br>
 Web : https://appbsz.crearforo.net/h153-generador-contador-de-visualizacion-bsz	
 
 ---
